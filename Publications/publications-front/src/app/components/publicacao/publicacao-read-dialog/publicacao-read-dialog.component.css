@@ -1,8 +1,8 @@
 .container {
     width: 1000px;
-    height: auto; /* Permite ajustar dinamicamente a altura */
-    max-height: 100vh; /* Limita a altura máxima à altura da viewport */
-    overflow: hidden; /* Esconde qualquer conteúdo que exceda a área visível */
+    height: auto; 
+    max-height: 100vh; 
+    overflow: hidden; 
     padding: 2rem;
     border-radius: 0rem;
     background: #F0F4F3;
@@ -11,7 +11,7 @@
  .form-fields {
     display: flex;
     align-items: flex-start;
-    gap: 0.5rem; /* Define o espaçamento horizontal entre os campos */
+    gap: 0.5rem; 
   }
  
  .full-width {
@@ -25,20 +25,15 @@
  .descricao {
     min-height: 15rem;
     max-height: 20rem;   
-    font-size: 0.875rem; /* Define o tamanho da fonte (14px, equivalente a 0.875rem) */
-    line-height: 1.5;    /* Ajusta o espaçamento entre linhas para melhor legibilidade */
-    overflow-y: auto;    /* Permite rolagem dentro do campo apenas */
+    font-size: 0.875rem; 
+    line-height: 1.5;    
+    overflow-y: auto;    
  }
 
  button {
     margin-top: .5rem;
  }
- 
- /* p {
-    margin-top: 3rem;
-    opacity: .5;
-    text-align: center;
- } */
+
 
 ::ng-deep .custom-dialog-container {
     width: auto;
