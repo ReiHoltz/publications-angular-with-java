@@ -49,7 +49,7 @@ The application provides the following key functionalities:
 5. **Github CI/CD**
 6. **Lombok**
 7. **PostgreSQL**
-8. **Full Text Search**
+8. **Full Text Search with Postgres**
 9. **Docker**
 
 **Front-end**
