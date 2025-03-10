@@ -52,11 +52,12 @@ The application provides the following key functionalities:
 8. **Full Text Search**
 9. **Docker**
 
-**Front-end
+**Front-end**
 1. **Angular (version 16)**
 2. **TypeScript**
 3. **HTML5**
 4. **CSS3**
 
 ## Prototype test version
-https://publicationsapi-frontend-v0.onrender.com/login
+
+<a href="https://publicationsapi-frontend-v0.onrender.com/login" target="_blank">Click here to access the test version</a>
