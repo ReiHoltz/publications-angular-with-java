@@ -44,9 +44,9 @@ The application provides the following key functionalities:
    - **Spring Boot**
    - **Spring Web**
    - **Spring Data JPA**
-   - **Spring Security
-4. **JWT
-5. **Github CI/CD
+   - **Spring Security**
+4. **JWT**
+5. **Github CI/CD**
 6. **Lombok**
 7. **PostgreSQL**
 8. **Full Text Search**
