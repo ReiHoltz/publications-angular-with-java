@@ -1,0 +1,102 @@
+.container {
+   display: flex; /* Cria layout em duas colunas */
+   height: 100vh; /* Altura total da tela */
+   background-color: #F0F4F3;
+   justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.form-background {
+   flex: 0.5; /* Ocupa 50% da largura */
+   display: flex;
+   justify-content: center; /* Centraliza o formulário */
+   align-items: center; /* Alinha verticalmente no centro */
+   padding: 2rem; /* Adiciona padding ao redor do formulário */
+}
+
+.form {
+   max-width: 25rem; /* Define largura máxima */
+   max-height: 25rem;
+   width: 100%; /* Garante que o formulário ocupe toda a largura disponível */
+   padding: 1rem 1rem;
+   display: flex;
+   flex-direction: column; /* Alinha os elementos verticalmente */
+   gap: 1.0rem; /* Adiciona espaçamento entre os campos */
+}
+
+h1 {
+   text-align: left;
+}
+
+button {
+   width: 100%;
+   margin-top: 1.5rem;
+   max-width: 25.0rem;
+   max-height: 2.0rem;
+}
+
+.txt-link-button{
+   margin-top: 1.0rem;
+}
+
+/* Lado direito: Imagem */
+.image {
+   flex: 1.5; /* Ocupa 50% da largura */
+   background-image: url('/assets/img/login-background.webp');
+   background-size: initial; /* Faz a imagem cobrir toda a área */
+   background-position: center; /* Centraliza a imagem */  
+   height: 100vh; /* Garante que a imagem ocupe toda a altura da tela */
+   overflow: hidden;
+}
+
+.image img {
+   width: 100%;
+   height: 100%;
+   object-fit: inherit; /* Ajusta a imagem para preencher o espaço */
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+   .container {
+      gap: 0.5rem; /* Reduz o espaçamento entre colunas */
+   }
+
+   .form-background {
+      padding: 1.5rem; /* Reduz o padding do formulário */
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      flex-direction: column; /* Empilha os elementos em telas pequenas */
+      align-items: center;
+   }
+
+   .form-background {
+      width: 90%; /* Formulário ocupa quase toda a largura */
+      padding: 1.5rem 1rem;
+   }
+
+   .image {
+      display: none; /* Oculta a imagem em telas pequenas */
+   }
+}
+
+@media (max-width: 480px) {
+   .form {
+      padding: 1rem; /* Reduz o padding do formulário */
+      gap: 1rem; /* Ajusta o espaçamento entre os campos */
+   }
+
+   h1 {
+      font-size: 1.2rem; /* Ajusta o tamanho do título */
+   }
+
+   button {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+   }
+
+   .txt-link-button {
+      font-size: 0.8rem;
+   }
+}

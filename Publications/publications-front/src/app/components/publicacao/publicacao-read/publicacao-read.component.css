@@ -1,0 +1,37 @@
+.container {
+    width: 45%;
+    margin: auto auto 3rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #F0F4F3;
+ }
+ 
+ .full-width {
+    width: 100%;
+ }
+ 
+ h1, img, p{
+    text-align: center;
+ }
+ 
+ img {
+    height: 15rem;
+ }
+
+.orgao, .unidade, .localidade, .tipo, .numeroProcesso, .dataPublicacao, .descricao {
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.2); 
+}
+  
+ .descricao {
+    min-height: 15rem;
+    max-height: 20rem;   
+ }
+
+ button {
+    margin-top: .5rem;
+ }
+ 
+ p {
+    margin-top: 3rem;
+    opacity: .5;
+ }
