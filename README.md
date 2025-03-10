@@ -1,6 +1,6 @@
 # Judicial Publications Search Using PostgreSQL Full-Text Capabilities
 
-![Asynchronous Communication Flow](./Project-Flow.png)
+(./Project-login.png)
 
 
 ## Overview
@@ -13,31 +13,31 @@ On the frontend, the interface is developed with Angular 16, utilizing Angular M
 ## Functional Overview
 The application provides the following key functionalities:
 
-** User Authentication & Access Management
+**User Authentication & Access Management**
 - Secure login with JWT-based authentication and session expiration
 - User registration for new accounts
 - Password recovery and change options
 
-** Legal Publications Search
+**Legal Publications Search**
 - Advanced Full-Text Search in PostgreSQL to locate judicial publications efficiently
 - Filtering and sorting options to refine search results
 
-**Judicial Case Data Management
+**Judicial Case Data Management**
 - View and retrieve details about legal cases and court decisions
 - Structured storage and access to case-related information
 
-**RESTful API
+**RESTful API**
 - Secure and scalable Spring Boot-based backend for data management
 - Exposes endpoints for authentication, user management, and case data retrieval
 - Containerized with Docker for easy deployment
 
-**Modern Frontend Interface
+**Modern Frontend Interface**
 - Built with Angular 16 + Angular Material for an intuitive and responsive UI
 - Optimized for usability and accessibility with TypeScript, HTML5, and CSS3
 
 ## Technologies Used
 
-**Back-end
+**Back-end**
 1. **Java (version 17)**
 2. **Maven**
 3. **Spring Ecosystem**:
