@@ -57,3 +57,6 @@ The application provides the following key functionalities:
 2. **TypeScript**
 3. **HTML5**
 4. **CSS3**
+
+## Prototype test version
+https://publicationsapi-frontend-v0.onrender.com/login
