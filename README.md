@@ -1,4 +1,4 @@
-# Judicial Publications Search Using PostgreSQL Full-Text Capabilities
+# Judicial Publications Search Using PostgreSQL Full-Text Capabilities - Full Stack Application
 
 ![publications-angular-with-java](./Project-login.png)
 
