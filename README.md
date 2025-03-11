@@ -1,10 +1,10 @@
-# Judicial Publications Search Using PostgreSQL Full-Text Capabilities - Full Stack Application
+# Judicial Publications Search Using PostgreSQL "Full-Text Search" Capabilities - Full Stack Application
 
 ![publications-angular-with-java](./Project-login.png)
 
 
 ## Overview
-This project is a Java 17 + Angular 16 application designed for searching court publications and managing judicial case data. It includes a login screen with options for creating a new account and resetting passwords, as well as an authentication system with session expiration to enhance security.
+This project is a Java 17 + Angular 16 application designed for searching court publications using "Full-Text Search". It includes a login screen with options for creating a new account and resetting passwords, as well as an authentication system with session expiration to enhance security.
 
 On the backend, the application uses Spring Boot 3.3.4 with Spring Data JPA for database access, leveraging PostgreSQL Full-Text Search to enable efficient text-based searches within legal publications. Security is managed with Spring Security and JWT for authentication and authorization, ensuring controlled access to the RESTful API. The API is containerized using Docker, ensuring easy deployment and scalability.
 
@@ -20,11 +20,7 @@ The application provides the following key functionalities:
 
 **Legal Publications Search**
 - Advanced Full-Text Search in PostgreSQL to locate judicial publications efficiently
-- Filtering and sorting options to refine search results
-
-**Judicial Case Data Management**
 - View and retrieve details about legal cases and court decisions
-- Structured storage and access to case-related information
 
 **RESTful API**
 - Secure and scalable Spring Boot-based backend for data management
